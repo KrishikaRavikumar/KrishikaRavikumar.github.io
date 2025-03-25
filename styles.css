@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.navbar {
+    background: #222;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container span {
+    background: #2575fc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e67e22;
+}
